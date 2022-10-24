@@ -1,7 +1,7 @@
 <template>
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <router-link class="navbar-brand" to="/">Home</router-link>
             <button
                 class="navbar-toggler"
                 type="button"
@@ -20,7 +20,7 @@
                     >
                     <a class="nav-link" href="#">Features</a>
                     <a class="nav-link" href="#">Pricing</a>
-                    <a class="nav-link disabled">Disabled</a>
+                    <router-link class="nav-link" to='/contact-us'>Contact us</router-link>
                 </div>
             </div>
         </div>

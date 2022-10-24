@@ -2,9 +2,7 @@
     <div class="vue">
         <Nav />
         <div class="container">
-            <router-link class="text-danger" to="/home">fdfd</router-link>
             <router-view />
-
         </div>
         <Footer />
     </div>
